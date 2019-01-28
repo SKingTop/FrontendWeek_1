@@ -1,0 +1,208 @@
+$redColor: #d63c37
+$whiteColor: #fcfcfc
+$greyColor: #666666
+$blackColor: #333333
+////global////
+*
+	margin: 0
+	padding: 0
+	transition: .25s ease-in-out
+
+p
+	font-family:(Aileron-Regular)
+	color: $greyColor
+
+h1, h2, h3, h4, h5, h6
+	font-family:(Caladea-Bold)
+	color: $blackColor
+	font-weight: 300
+////nav-menu////
+.nav-menu-btn 
+	width: 30px
+	height: 30px
+	position: relative
+	cursor: pointer	
+	span
+		display: block
+		position: absolute
+		height: 6px
+		width: 100%
+		background: black
+		border-radius: 5px
+		left: 0
+		transform: rotate(0deg)
+		&:nth-child(1)
+			top: 0px
+		&:nth-child(2), &:nth-child(3)
+			top: 12px
+		&:nth-child(4)
+			top: 24px
+
+.nav-menu
+	text-align: right
+	width: 30px
+	height: 30px
+	overflow: hidden
+	position: absolute
+	top: 30px
+	right: 30px
+	position: fixed
+	z-index: 500
+	&.menu-open
+		height: auto
+	&.menu-open .nav-menu-btn span:nth-child(1)
+		top: 15px
+		width: 0%
+		left: 50%
+	&.menu-open .nav-menu-btn span:nth-child(2)
+		transform: rotate(45deg)	
+	&.menu-open .nav-menu-btn span:nth-child(3)
+		transform: rotate(-45deg)
+	&.menu-open .nav-menu-btn span:nth-child(4)
+		top: 15px
+		width: 0%
+		left: 50%
+	&.menu-open .nav-links
+		opacity: 1	
+
+.nav-menu-item
+	display: block
+	color: $blackColor
+	height: 30px
+	text-align: center
+
+.nav-links
+	top: 0
+	left: 0
+	right: 0
+	margin-top: 20px
+	background-color: rgba(0,0,0,0)
+	z-index: 1000
+	opacity: 0
+
+i
+	opacity: 0.8
+	color: $blackColor
+
+////header////
+body
+	width: calc(1920px - calc(100vw - 100%))
+	margin: auto
+	position: relative
+header
+	width: 100%
+	height: 1440px
+	background: url(../img/image1.jpg) no-repeat
+	article
+		width: 1200px
+		height: 200px
+		padding-top: 630px
+		margin-left: 360px
+		text-align: center
+		h1 
+			font-size: 3.5em
+			margin-bottom: 50px
+			span
+				color: $redColor
+		p
+			font-size: 1.3em
+			line-height: 35px
+////container////
+.container
+	width: 100%
+	height: 1440px
+	clear: both
+	background-color: #f6f6f6
+	img 
+		width: 570px
+		height: 856px
+		float: left
+		margin-left: 375px
+		margin-top: 584px
+	article 
+		width: 570px
+		height: 770px
+		float: left
+		margin-top: 384px
+		margin-left: 30px
+		h2
+			font-size: 2.5em
+			margin: 0
+			span
+				color: $redColor
+				text-decoration: underline
+		p
+			padding-left: 100px
+			padding-top: 50px
+			font-size: 1.2em
+			margin: 0
+			letter-spacing: 1px
+			position: relative
+			span
+				color: $redColor
+			i
+				position: absolute
+				top: 45px
+				left: 50px
+				color: $redColor
+////footer////
+footer
+	width: 100%
+	height: 1440px
+	clear: both
+	background-color: $redColor
+	article
+		width: 1200px
+		height: 850px
+		padding-top: 313px
+		margin-left: 350px
+		h2
+			margin: 0
+			font-size: 2.5em
+			text-align: right
+			margin-right: 80px
+			margin-bottom: 50px
+			span
+				text-decoration: underline
+		.column
+			width: 50%
+			float: left
+			.text
+				width: 100%
+				min-height: 240px
+				text-align: right
+				font-size: 1.3em
+				line-height: 35px
+				position: relative
+footer article .column
+	.img
+		position: absolute
+		top: 0
+		right: 0
+		width: 50px
+		height: 50px
+		text-align: center
+		border-radius: 50%
+		border: 3px solid $whiteColor
+		&:hover
+			background-color: $whiteColor
+			i
+				color: $redColor
+		i
+			margin-top: 30%
+			color: $whiteColor
+			opacity: 1
+	.text p
+		color: $blackColor
+	.text p, .text h5
+		padding-left: 10px
+		padding-right: 80px
+		font-size: 1.1em
+	.text h5
+		font-family: (Aileron-Regular)
+		font-weight: normal
+		margin-bottom: 20px
+		margin-top: 30px
+		color: $whiteColor
+		span
+			font-weight: bold

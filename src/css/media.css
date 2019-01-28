@@ -1,0 +1,317 @@
+@media screen and (max-width: 1680px) {
+  body {
+    width: -webkit-calc(1680px - -webkit-calc(100vw - 100%));
+    width: calc(1680px - calc(100vw - 100%)); }
+  header article {
+    margin-left: 280px; }
+  .container img {
+    margin-left: 295px; }
+  footer article {
+    margin-left: 270px; } }
+
+@media screen and (max-width: 1600px) {
+  body {
+    width: -webkit-calc(1600px - -webkit-calc(100vw - 100%));
+    width: calc(1600px - calc(100vw - 100%)); }
+  header article {
+    margin-left: 200px; }
+  .container img {
+    margin-left: 215px; }
+  footer article {
+    margin-left: 190px; } }
+
+@media screen and (max-width: 1440px) {
+  body {
+    width: -webkit-calc(1440px - -webkit-calc(100vw - 100%));
+    width: calc(1440px - calc(100vw - 100%)); }
+  header article {
+    margin-left: 160px; }
+  .container img {
+    margin-left: 175px; }
+  footer article {
+    margin-left: 150px; } }
+
+@media screen and (max-width: 1366px) {
+  body {
+    width: -webkit-calc(1366px - -webkit-calc(100vw - 100%));
+    width: calc(1366px - calc(100vw - 100%)); }
+  header article {
+    margin-left: 83px; }
+  .container img {
+    margin-left: 113px; }
+  footer article {
+    margin-left: 83px; } }
+
+@media screen and (max-width: 1280px) {
+  body {
+    width: -webkit-calc(1280px - -webkit-calc(100vw - 100%));
+    width: calc(1280px - calc(100vw - 100%)); }
+  header {
+    height: 1340px; }
+    header article {
+      padding-top: 530px;
+      width: 1000px;
+      margin-left: 140px; }
+      header article h1 {
+        font-size: 3em; }
+  .container {
+    height: 1340px; }
+    .container img {
+      margin-top: 484px;
+      margin-left: 70px; }
+    .container article {
+      margin-top: 284px;
+      width: 500px; }
+  footer {
+    height: 1340px; }
+    footer article {
+      padding-top: 250px;
+      width: 1000px;
+      margin-left: 140px; } }
+
+@media screen and (max-width: 1024px) {
+  body {
+    width: -webkit-calc(1024px - -webkit-calc(100vw - 100%));
+    width: calc(1024px - calc(100vw - 100%)); }
+  header {
+    height: 939px;
+    -webkit-background-size: cover;
+            background-size: cover; }
+    header article {
+      width: 900px;
+      padding-top: 330px;
+      margin-left: 62px; }
+      header article h1 {
+        font-size: 2.5em;
+        margin-bottom: 30px; }
+      header article p {
+        font-size: 1em; }
+  .container {
+    height: 939px; }
+    .container img {
+      width: 370px;
+      height: auto;
+      margin-top: 384px;
+      margin-left: 142px; }
+    .container article {
+      height: auto;
+      margin-top: 284px;
+      width: 370px; }
+      .container article h2 {
+        font-size: 2em; }
+      .container article p {
+        font-size: 1em;
+        padding-left: 50px;
+        padding-top: 25px; }
+        .container article p i {
+          top: 30px;
+          left: 20px; }
+  footer article {
+    padding-top: 250px;
+    width: 800px;
+    margin-left: 142px; }
+    footer article h2 {
+      font-size: 2em; }
+    footer article .column .text {
+      font-size: 1em; }
+      footer article .column .text h5 {
+        font-size: 1.2em; } }
+
+@media screen and (max-width: 800px) {
+  .nav-menu {
+    position: absolute;
+    top: 30px;
+    right: 30px; }
+  body {
+    width: -webkit-calc(800px - -webkit-calc(100vw - 100%));
+    width: calc(800px - calc(100vw - 100%)); }
+  header article {
+    width: 700px;
+    margin-left: 50px; }
+    header article h1 {
+      font-size: 2.1em; }
+  .container {
+    height: 809px; }
+    .container img {
+      width: 350px;
+      margin-top: 284px;
+      margin-left: 50px; }
+    .container article {
+      width: 350px;
+      margin-top: 184px; }
+      .container article h2 {
+        font-size: 1.6em; }
+  footer {
+    height: 1140px; }
+    footer article {
+      width: 700px;
+      margin-left: 50px;
+      padding-top: 200px; }
+      footer article h2 {
+        font-size: 1.6em; }
+      footer article .column .text {
+        font-size: 1em;
+        line-height: 30px; }
+        footer article .column .text h5 {
+          font-size: 1.2em; } }
+
+@media screen and (max-width: 768px) {
+  body {
+    width: -webkit-calc(768px - -webkit-calc(100vw - 100%));
+    width: calc(768px - calc(100vw - 100%)); }
+  header article {
+    width: 650px;
+    margin-left: 59px; }
+    header article h1 {
+      font-size: 1.7em; }
+  .container {
+    height: 772px; }
+    .container img {
+      width: 325px; }
+    .container article {
+      width: 325px; }
+      .container article h2 {
+        font-size: 1.5em; }
+      .container article p {
+        font-size: 0.95em; }
+  footer article {
+    width: 650px;
+    margin-left: 59px; }
+    footer article h2 {
+      font-size: 1.5em; }
+    footer article .column .text {
+      font-size: 0.95em;
+      line-height: 25px; }
+      footer article .column .text h5 {
+        font-size: 1.2em; } }
+
+@media screen and (max-width: 600px) {
+  body {
+    width: -webkit-calc(600px - -webkit-calc(100vw - 100%));
+    width: calc(600px - calc(100vw - 100%)); }
+  header article {
+    width: 500px;
+    margin-left: 50px; }
+    header article h1 {
+      font-size: 1.5em; }
+    header article p {
+      font-size: 1em;
+      line-height: 25px; }
+  .container {
+    height: 650px; }
+    .container img {
+      display: none; }
+    .container article {
+      width: 500px;
+      margin-left: 50px;
+      margin-top: 100px; }
+      .container article h2 {
+        margin-left: 50px;
+        font-size: 1.5em; }
+      .container article p {
+        font-size: 1em; }
+  footer {
+    height: 1580px; }
+    footer article {
+      width: 500px;
+      margin-left: 50px;
+      padding-top: 100px; }
+      footer article h2 {
+        font-size: 1.5em; }
+      footer article .column {
+        width: 100%; }
+        footer article .column .text {
+          font-size: 1em;
+          line-height: 25px; }
+          footer article .column .text h5 {
+            font-size: 1.2em; } }
+
+@media screen and (max-width: 480px) {
+  body {
+    width: -webkit-calc(480px - -webkit-calc(100vw - 100%));
+    width: calc(480px - calc(100vw - 100%)); }
+  header {
+    height: 500px; }
+    header article {
+      width: 440px;
+      margin-left: 20px;
+      padding-top: 200px; }
+      header article h1 {
+        font-size: 1.2em; }
+      header article p {
+        font-size: 0.8em;
+        line-height: 20px; }
+  .container {
+    height: 450px; }
+    .container article {
+      width: 440px;
+      margin-left: 20px;
+      margin-top: 50px; }
+      .container article h2 {
+        margin-left: 20px;
+        font-size: 1.2em; }
+      .container article p {
+        font-size: 0.8em; }
+  footer {
+    height: 950px; }
+    footer article {
+      width: 440px;
+      margin-left: 20px;
+      padding-top: 50px; }
+      footer article h2 {
+        font-size: 1.2em;
+        margin: 0;
+        text-align: center; }
+      footer article .column .text {
+        min-height: 140px;
+        font-size: 0.8em;
+        line-height: 20px; }
+        footer article .column .text h5 {
+          font-size: 1em;
+          padding-right: 50px; }
+        footer article .column .text p {
+          padding-right: 50px; }
+        footer article .column .text .img {
+          height: 30px;
+          width: 30px; } }
+
+@media screen and (max-width: 320px) {
+  body {
+    width: -webkit-calc(320px - -webkit-calc(100vw - 100%));
+    width: calc(320px - calc(100vw - 100%)); }
+  header article {
+    width: 280px;
+    margin-left: 20px;
+    padding-top: 200px; }
+    header article h1 {
+      font-size: 1em; }
+    header article p {
+      font-size: 0.5em;
+      line-height: 15px; }
+  .container {
+    height: 400px; }
+    .container article {
+      width: 280px;
+      margin-left: 20px; }
+      .container article h2 {
+        margin-left: 20px;
+        font-size: 0.9em; }
+      .container article p {
+        font-size: 0.5em; }
+  footer {
+    height: 800px; }
+    footer article {
+      width: 280px;
+      margin-left: 20px;
+      height: auto; }
+      footer article h2 {
+        font-size: 0.9em; }
+      footer article .column .text {
+        min-height: 100px;
+        font-size: 0.5em;
+        line-height: 15px; }
+        footer article .column .text h5 {
+          font-size: 0.9em; }
+        footer article .column .text .img {
+          height: 25px;
+          width: 25px; } }
