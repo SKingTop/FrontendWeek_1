@@ -102,20 +102,25 @@
       .container article p {
         font-size: 1em;
         padding-left: 50px;
-        padding-top: 25px; }
+        padding-top: 25px;
+        line-height: 20px; }
         .container article p i {
           top: 30px;
           left: 20px; }
-  footer article {
-    padding-top: 250px;
-    width: 800px;
-    margin-left: 142px; }
-    footer article h2 {
-      font-size: 2em; }
-    footer article .column .text {
-      font-size: 1em; }
-      footer article .column .text h5 {
-        font-size: 1.2em; } }
+  footer {
+    height: 1000px; }
+    footer article {
+      padding-top: 150px;
+      width: 800px;
+      margin-left: 142px; }
+      footer article h2 {
+        font-size: 2em; }
+      footer article .column .text {
+        font-size: 1em; }
+        footer article .column .text h5 {
+          font-size: 1.2em; }
+        footer article .column .text p {
+          line-height: 30px; } }
 
 @media screen and (max-width: 800px) {
   .nav-menu {
@@ -169,6 +174,7 @@
     .container img {
       width: 325px; }
     .container article {
+      margin-top: 150px;
       width: 325px; }
       .container article h2 {
         font-size: 1.5em; }
@@ -197,6 +203,8 @@
     header article p {
       font-size: 1em;
       line-height: 25px; }
+  header .fa-chevron-down {
+    display: none; }
   .container {
     height: 650px; }
     .container img {
@@ -211,7 +219,7 @@
       .container article p {
         font-size: 1em; }
   footer {
-    height: 1580px; }
+    height: 1280px; }
     footer article {
       width: 500px;
       margin-left: 50px;
@@ -242,7 +250,7 @@
         font-size: 0.8em;
         line-height: 20px; }
   .container {
-    height: 450px; }
+    height: 550px; }
     .container article {
       width: 440px;
       margin-left: 20px;
@@ -270,7 +278,8 @@
           font-size: 1em;
           padding-right: 50px; }
         footer article .column .text p {
-          padding-right: 50px; }
+          padding-right: 50px;
+          line-height: 20px; }
         footer article .column .text .img {
           height: 30px;
           width: 30px; } }
@@ -289,7 +298,7 @@
       font-size: 0.5em;
       line-height: 15px; }
   .container {
-    height: 400px; }
+    height: 450px; }
     .container article {
       width: 280px;
       margin-left: 20px; }
@@ -297,9 +306,10 @@
         margin-left: 20px;
         font-size: 0.9em; }
       .container article p {
-        font-size: 0.5em; }
+        font-size: 0.5em;
+        line-height: 15px; }
   footer {
-    height: 800px; }
+    height: 820px; }
     footer article {
       width: 280px;
       margin-left: 20px;
@@ -309,7 +319,8 @@
       footer article .column .text {
         min-height: 100px;
         font-size: 0.5em;
-        line-height: 15px; }
+        line-height: 15px;
+        line-height: 5px; }
         footer article .column .text h5 {
           font-size: 0.9em; }
         footer article .column .text .img {
